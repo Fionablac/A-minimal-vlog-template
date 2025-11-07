@@ -176,3 +176,31 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.spinner-box{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin: 50% auto;
+  border-radius: 10px;
+  animation: spin 0.5s infinite linear;
+}
+.spinner-box:hover{
+  background-color: deeppink;
+  opacity: 0.5;
+  animation: none;
+  transform: scale(1.2) translate(30px,30px);
+
+}
+@keyframes spin {
+ from {
+  transform: rotate(0deg);
+  }
+ to {
+  transform: rotate(360deg);
+  }
+}
+
+
+
+ 
+
